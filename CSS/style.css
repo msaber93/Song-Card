@@ -10,7 +10,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-.audio-content {
+.image-content {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -25,47 +25,34 @@ body {
   border-radius: 4px;
 }
 .container img {
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  position: relative;
-  top: 15px;
-  right: 10px;
-  box-shadow: 10px 15px 10px -5px rgb(174, 171, 171);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    right: 25px;
+    box-shadow: 10px 15px 10px -5px rgb(176 165 144);
 }
-h1 {
+.text-container h1 {
   font-weight: bold;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
 }
 p {
-  font-size: 10px;
+  font-size: 15px;
+  font-weight: bold;
   font-family: Roboto, sans-serif;
   color: rgba(74, 54, 54, 0.804);
+  text-align: center;
 }
-.round {
-  width: 40px;
-  height: 40px;
-  background: rgba(255, 255, 255, 0.859);
-  border-radius: 50%;
-  border: 7px solid rgb(230, 230, 246);
-}
-.round::before {
-  content: "";
-  width: 0;
-  height: 0;
-  border-width: 9px;
-  border-style: solid;
-  border-color: rgb(151, 168, 211) transparent transparent transparent;
-  position: absolute;
-  transform: rotate(-90deg);
-  top: 42%;
-  left: 88%;
-  border-radius: 3px;
+.fa-regular {
+  font-size: 40px;
+  position: relative;
+  left: 25px;
   cursor: pointer;
+  color: #007fff6e;
 }
-@media (max-width: 575px) {
-  .container {
-    width: 50%;
-  }
+.fa-regular:hover {
+  color: #0080ffe0;
 }
+
