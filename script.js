@@ -5,14 +5,14 @@ let isPlaying = false;
 function playMusic() {
   isPlaying = true;
   playButton.classList.replace('fa-circle-play', 'fa-circle-pause');
-  playButton.setAttribute('title', 'Play');
+  playButton.setAttribute('title', 'Pause');
   audio.play();
 }
 
 function pauseMusic() {
   isPlaying = false;
   playButton.classList.replace('fa-circle-pause', 'fa-circle-play');
-  playButton.setAttribute('title', 'Pause');
+  playButton.setAttribute('title', 'Play');
   audio.pause();
 }
 
